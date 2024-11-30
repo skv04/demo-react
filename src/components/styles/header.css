@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: black;
+}
+.uli {
+  list-style-type: none;
+  display: inline-grid;
+  margin-left: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 70%;
+}
+li {
+  display: inline;
+  padding: 10px;
+  background-color: rgb(171, 179, 179);
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pageTitle {
+  font-size: 35px;
+  display: inline-block;
+  padding: 30px;
+  width: 15%;
+}
+.header{
+    background-color: rgb(148, 164, 177);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+
+}
