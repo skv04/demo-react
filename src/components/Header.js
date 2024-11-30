@@ -8,11 +8,11 @@ function Header() {
       <nav>
         <div className="pageTitle" ><b>BusTiming.in</b></div>
         <ul className='uli'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to='/busroutes'>Routes</Link></li>
-          <li><Link to='/aboutus'>About us</Link></li>
-          <li><Link to='/contactus'>Contact us</Link></li>
-          <li><Link to='/signin'>Sign in</Link></li>
+          <li><Link to="demo-react/">Home</Link></li>
+          <li><Link to='demo-react/busroutes'>Routes</Link></li>
+          <li><Link to='demo-react/aboutus'>About us</Link></li>
+          <li><Link to='demo-react/contactus'>Contact us</Link></li>
+          <li><Link to='demo-react/signin'>Sign in</Link></li>
         </ul>
       </nav>
     </div>
