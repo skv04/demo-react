@@ -15,7 +15,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path="demo-react/" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/signin" element={<Signin/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
