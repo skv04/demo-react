@@ -6,14 +6,14 @@ import BusRoutes from './components/BusRoutes';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 
-import {Routes,Route, BrowserRouter} from 'react-router-dom';
+import {Routes,Route,HashRouter as Router} from 'react-router-dom';
 import AddBusRoute from './components/AddBusRoute';
 
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
       <Routes>
         <Route path="demo-react/" element={<Home/>}/>
         <Route path="/signin" element={<Signin/>}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path="/busroutes" element={<BusRoutes/>}/>
         <Route path="/admin" element={<AddBusRoute/>}/>
       </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
