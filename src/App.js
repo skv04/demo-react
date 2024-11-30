@@ -16,12 +16,12 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="demo-react/" element={<Home/>}/>
-        <Route path="demo-react/signin" element={<Signin/>}/>
-        <Route path="demo-react/signup" element={<Signup/>}/>
-        <Route path="demo-react/aboutus" element={<AboutUs/>}/>
-        <Route path="demo-react/contactus" element={<ContactUs/>}/>
-        <Route path="demo-react/busroutes" element={<BusRoutes/>}/>
-        <Route path="demo-react/admin" element={<AddBusRoute/>}/>
+        <Route path="/signin" element={<Signin/>}/>
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/aboutus" element={<AboutUs/>}/>
+        <Route path="/contactus" element={<ContactUs/>}/>
+        <Route path="/busroutes" element={<BusRoutes/>}/>
+        <Route path="/admin" element={<AddBusRoute/>}/>
       </Routes>
       </BrowserRouter>
     </div>
